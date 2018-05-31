@@ -1,20 +1,6 @@
-//
-//  CPAppDelegate.m
-//  iOS5Fonts
-//
-//  Created by Cameron Lowell Palmer on 15.10.12.
-//  Copyright (c) 2012 Cameron Lowell Palmer. All rights reserved.
-//
-
 #import "CPAppDelegate.h"
 
 @implementation CPAppDelegate
-
-- (void)dealloc
-{
-    [_window release];
-    [super dealloc];
-}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
