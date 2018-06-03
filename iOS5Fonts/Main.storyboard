@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="PTQ-V5-xNL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="PTQ-V5-xNL">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -13,18 +13,22 @@
         <scene sceneID="3Fw-so-PMH">
             <objects>
                 <viewController id="PTQ-V5-xNL" customClass="CPViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Bhy-Y7-Iye">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rhd-OO-Kjz"/>
+                        <viewControllerLayoutGuide type="bottom" id="bwF-Oo-D5E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LUi-GJ-pq6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
-                        <outlet property="view" destination="Bhy-Y7-Iye" id="iWH-0J-RVt"/>
+                        <outlet property="view" destination="LUi-GJ-pq6" id="i4A-82-YST"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gvh-6w-xra" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="61.25" y="143.405"/>
+            <point key="canvasLocation" x="60.5" y="142.5"/>
         </scene>
     </scenes>
 </document>

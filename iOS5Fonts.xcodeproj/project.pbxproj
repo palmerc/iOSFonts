@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		C765115820C025E200712FF3 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C765115A20C026DD00712FF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C7EBE4BB162C04710052033B /* iOS5Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS5Fonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EBE4BB162C04710052033B /* iOSFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7EBE4BF162C04710052033B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C7EBE4C1162C04710052033B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7EBE4C3162C04710052033B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -93,7 +93,7 @@
 		C7EBE4BC162C04710052033B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7EBE4BB162C04710052033B /* iOS5Fonts.app */,
+				C7EBE4BB162C04710052033B /* iOSFonts.app */,
 				C7EBE4E5162C04710052033B /* iOS5FontsTests.octest */,
 			);
 			name = Products;
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C7EBE4BA162C04710052033B /* iOS5Fonts */ = {
+		C7EBE4BA162C04710052033B /* iOSFonts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7EBE4F7162C04710052033B /* Build configuration list for PBXNativeTarget "iOS5Fonts" */;
+			buildConfigurationList = C7EBE4F7162C04710052033B /* Build configuration list for PBXNativeTarget "iOSFonts" */;
 			buildPhases = (
 				C7EBE4B7162C04710052033B /* Sources */,
 				C7EBE4B8162C04710052033B /* Frameworks */,
@@ -169,9 +169,9 @@
 			);
 			dependencies = (
 			);
-			name = iOS5Fonts;
+			name = iOSFonts;
 			productName = iOS5Fonts;
-			productReference = C7EBE4BB162C04710052033B /* iOS5Fonts.app */;
+			productReference = C7EBE4BB162C04710052033B /* iOSFonts.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C7EBE4E4162C04710052033B /* iOS5FontsTests */ = {
@@ -215,7 +215,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7EBE4BA162C04710052033B /* iOS5Fonts */,
+				C7EBE4BA162C04710052033B /* iOSFonts */,
 				C7EBE4E4162C04710052033B /* iOS5FontsTests */,
 			);
 		};
@@ -282,7 +282,7 @@
 /* Begin PBXTargetDependency section */
 		C7EBE4EB162C04710052033B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C7EBE4BA162C04710052033B /* iOS5Fonts */;
+			target = C7EBE4BA162C04710052033B /* iOSFonts */;
 			targetProxy = C7EBE4EA162C04710052033B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -475,7 +475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7EBE4F7162C04710052033B /* Build configuration list for PBXNativeTarget "iOS5Fonts" */ = {
+		C7EBE4F7162C04710052033B /* Build configuration list for PBXNativeTarget "iOSFonts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7EBE4F8162C04710052033B /* Debug */,
